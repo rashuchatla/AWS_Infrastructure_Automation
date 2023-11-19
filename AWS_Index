@@ -1,0 +1,14 @@
+How to read this file?
+
+[AWS Service]
+ - Key words or functionalities of the service
+
+AWS IAM
+ - Authentication and Authorization
+ - Users
+ - Groups
+ - Policies
+ - Roles
+
+AWS EC2
+ - 
