@@ -2,6 +2,7 @@ How to read this file?
 
 [AWS Service]
  - Key words or functionalities of the service
+ - Notes on the service
 
 AWS IAM
  - Authentication and Authorization
@@ -11,4 +12,10 @@ AWS IAM
  - Roles
 
 AWS EC2
+ - Types of EC2 instances - memory intensive / CPU intensive / general instance etc. using as per the needs and requirement
+ - Instance creations are at AD level
+ - Adjust permissions of the ssh private key file 600
+ - Login to instance using ssh keys and command like ssh -i <key_file> username@<ip> 
+
+AWS VPC
  - 
