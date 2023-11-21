@@ -25,3 +25,16 @@ AWS VPC
  - Typical flow: Internet -> Gateway to Vpc -> load balancer in public subnet -> route table -> reach the private subnet where security group decides to pass / deny the request
  - NACL attached at subnet level and security groups attached at instance level
  - NAT Gateways : mask the private subnet ips with public ip and allows the egress from private subnet resources to internet
+
+AWS Security Group
+ - Security is the shared responsibility of AWS and customers
+ - By default, security group is attached for every instance
+ - In Default SG, For inbound -> deny everything (by default) , For outbound -> allow everything (except port 25 as it is mail server port) (by default)
+ - We can change the allow and deny rules as per our needs
+
+AWS NACL (Network Access Control List)
+ - It operates at subnet level
+ - In Security groups, only ALLOW is allowes
+ - In NACLs, both ALLOW  and DENY is allowed
+
+
