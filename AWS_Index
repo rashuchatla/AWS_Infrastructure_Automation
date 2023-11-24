@@ -42,3 +42,12 @@ AWS S3
  - s3 buckets are global
  - cost effective
  - security
+
+AWS CodeCommit
+ - works well with non root user and also recommended by AWS
+ - useful for git enterprise users, solves overhead of enterprise git servers maintainence
+ - cons: less in features as compared to github , bitbucket
+
+AWS CodePipeline
+ - Alternative to Jenkins
+ - 
