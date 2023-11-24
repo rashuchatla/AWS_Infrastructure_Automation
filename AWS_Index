@@ -37,4 +37,8 @@ AWS NACL (Network Access Control List)
  - In Security groups, only ALLOW is allowes
  - In NACLs, both ALLOW  and DENY is allowed
 
-
+AWS S3
+ - Highly scalable and available, durable
+ - s3 buckets are global
+ - cost effective
+ - security
