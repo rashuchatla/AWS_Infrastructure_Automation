@@ -56,3 +56,7 @@ AWS CodePipeline
 
 AWS CloudWatch
  - It watches cloud activities on AWS
+
+AWS Lambda
+ - run a piece of code / function / script (you name it) without bothering about configuring / teardown instance
+ - Serverless (meaning we dont manage anything about instance running our code, AWS takes care of it)
