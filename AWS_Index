@@ -53,3 +53,6 @@ AWS CodePipeline
  - https://github.com/rashuchatla/AWS_Infrastructure_Automation/blob/main/Screenshot%202023-11-25%20at%201.53.09%20AM.png
  - This service is useful when companies want to avoid managing jenkins or similar infrastructure on their own
  - cons: These pipelines are AWS specific and cannot be reused if we want to move to other cloud / hybrid cloud. whereas jenkins pipelines almost remain same
+
+AWS CloudWatch
+ - It watches cloud activities on AWS
