@@ -9,7 +9,7 @@ AWS IAM
  - Users
  - Groups
  - Policies
- - Roles
+ - Roles (when service needs to access service, we use roles not users, as here the service is trying to access but not user)
 
 AWS EC2
  - Types of EC2 instances - memory intensive / CPU intensive / general instance etc. using as per the needs and requirement
