@@ -60,3 +60,15 @@ AWS CloudWatch
 AWS Lambda
  - run a piece of code / function / script (you name it) without bothering about configuring / teardown instance
  - Serverless (meaning we dont manage anything about instance running our code, AWS takes care of it)
+
+AWS Cloud Front
+ - Managed AWS service that provides solution for CDN
+
+AWS ECR
+ - ECR - ELastic container registry
+ - similar to docker hub
+ - Diff between docker hub or ECR:
+       1. If a org is already using AWS, the defined IAM roles or access permissions can be easily applied to ECR
+       2. Interaction with other AWS services and managing access permissions would be easy
+       3. so whatever cloud provider org is using, better to use their container registries
+ 
