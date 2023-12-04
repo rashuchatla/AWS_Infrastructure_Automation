@@ -81,4 +81,5 @@ AWS ECS
 
 AWS EKS
  - EKS is popular
+ - when you create a cluster in EKS, AWS setups control plane and manages it entirely
  - 
