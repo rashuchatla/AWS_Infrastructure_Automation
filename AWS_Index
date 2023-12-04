@@ -71,4 +71,14 @@ AWS ECR
        1. If a org is already using AWS, the defined IAM roles or access permissions can be easily applied to ECR
        2. Interaction with other AWS services and managing access permissions would be easy
        3. so whatever cloud provider org is using, better to use their container registries
- 
+
+AWS ECS
+ - ECS - Elastic container service
+ - Why we need this service? In general docker platform doesn't have self healing or auto scaling mechanisms. so its very easy to get downtime due to many reasons, as every container shares the resources of host machine.
+ - So, ECS and K8 have been evolved to solve these problems in major. 
+ - ECS is an alternative to Docker swarm, k8. but it doesn't have all features of k8
+ - Advantages of ECS - supports Fargate and EC2 (serverless and server) orchestration model.
+
+AWS EKS
+ - EKS is popular
+ - 
