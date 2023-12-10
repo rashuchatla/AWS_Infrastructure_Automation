@@ -82,4 +82,7 @@ AWS ECS
 AWS EKS
  - EKS is popular
  - when you create a cluster in EKS, AWS setups control plane and manages it entirely
- - 
+
+AWS Secret Management
+ - AWS system manager - mostly used to store configuration information or to automate operational tasks etc. ex- docker username, registry url etc
+ - AWS Secret manager - used when need to securely store secrets and manage secret information especially dealing with secrets like API keys, DB secrets etc
