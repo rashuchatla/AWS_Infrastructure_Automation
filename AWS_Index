@@ -86,3 +86,8 @@ AWS EKS
 AWS Secret Management
  - AWS system manager - mostly used to store configuration information or to automate operational tasks etc. ex- docker username, registry url etc
  - AWS Secret manager - used when need to securely store secrets and manage secret information especially dealing with secrets like API keys, DB secrets etc
+
+AWS Loadbalancer
+ - Types: Application Load Balancer, Network Load Balancer, Gateway Load Balancer
+ - Gateway load balancer is mostly used to act as a front gate for vpn. THis provides high security.
+ - Network load balancer is mostly used in game servers or streaming platforms like youtube. This is useful to avoid latency and data loss at network level where minimal latency is not expected
