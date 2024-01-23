@@ -1,5 +1,5 @@
 1. What is Terraform, and why is it used in the context of infrastructure automation?
-  - Terraform is used for infrastructure automation to provision and manage resources across various cloud providers and on-premises environments 
+   - Terraform is used for infrastructure automation to provision and manage resources across various cloud providers and on-premises environments 
 
 2. Explain the difference between declarative and imperative approaches in infrastructure provisioning.
    - In declarative provisioning, we specify the end or desired state of the instructure without specifying the exact steps to reach that state. Example - terraform
