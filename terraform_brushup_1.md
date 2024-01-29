@@ -58,7 +58,8 @@
       - This creates 3 ec2 instances with specified ami and instance type
        ```
 16. example of terraform using for_each
-     ``` - variable "instance_config" {
+     ```
+     - variable "instance_config" {
            type = map(object(
         {
            ami = string
