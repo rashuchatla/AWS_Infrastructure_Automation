@@ -49,8 +49,31 @@
        - while "for_each" allows you to create instances based on a map or set of values
 
 14. example of terraform using count
-15. example of terraform using for_each
-16. Explain how to use the Terraform "output" block for exporting resource information.
+       - resource "aws_instance" "example" {
+            count = 3
+            ami = "ami-12345678"
+            instance_type = "t2.micro"
+         }
+      - This creates 3 ec2 instances with specified ami and instance type
+16. example of terraform using for_each
+      - variable "instance_config" {
+           type = map(object(
+        {
+           ami = string
+           instance_type = string
+        }))
+        default = {
+            instance1 = { ami = "ami-12345678", instance_type = "t2.micro"}
+            instance2 = { ami = "ami-46538389", instance_type = "t2.nano"}
+        }
+       }
+      - resource "aws_instance" "example"{
+           for_each = var.instance_config
+           ami = each.value.ami
+           instance_type = each.value.instance_type
+        }
+        
+18. Explain how to use the Terraform "output" block for exporting resource information.
      - The output block in Terraform is used to define values that will be highlighted to the user upon terraform apply, or can be easily queried by the terraform output command. 
       - This can be really useful for exporting key resource information, such as IP addresses, hostnames, and other attributes for the resources created by a Terraform configuration.
      - example : 
