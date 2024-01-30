@@ -80,8 +80,10 @@
      - The output block in Terraform is used to define values that will be highlighted to the user upon terraform apply, or can be easily queried by the terraform output command. 
       - This can be really useful for exporting key resource information, such as IP addresses, hostnames, and other attributes for the resources created by a Terraform configuration.
      - example : 
-       output "instance_ip_addr"{
+       ```
+       output "instance_ip_addr" {
          value = aws_instance.example.public_ip
          description  = "The public ip address of the example instance"
       }
      - outputs: instance_ip_addr = 203.0.113.12
+    ```
